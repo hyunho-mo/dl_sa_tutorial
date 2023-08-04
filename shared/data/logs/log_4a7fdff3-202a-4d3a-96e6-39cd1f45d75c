@@ -1,0 +1,2 @@
+2023-08-02 14:59:56,841 - __main__ - DEBUG - Parameters: Namespace(box=None, dataset='whas500.xls', num_epochs=500, num_evals=50, num_folds=5, update_fn='Adam')
+2023-08-02 14:59:56,841 - __main__ - DEBUG - Loading dataset: whas500.xls

@@ -1,0 +1,12 @@
+deepsurv toturial
+Arguments: Namespace(dataset='/trinity/home/hmo/hmo/dl_sa_tutorial/experiments/data/whas/whas_train_test.h5', experiment='deepsurv_tutorial', model='/trinity/home/hmo/hmo/dl_sa_tutorial/experiments/deepsurv/models/whas_model_relu_revision.0.json', num_epochs=500, plot_error=False, results_dir=None, treatment_idx=None, update_fn='adam', weights=None)
+Loading datasets: /trinity/home/hmo/hmo/dl_sa_tutorial/experiments/data/whas/whas_train_test.h5
+Loading json model: {"learning_rate": 0.025594096518941305, "dropout": 0.014743652343750002, "lr_decay": 0.0006419482421875, "momentum": 0.863554443359375, "L2_reg": 2.574680908203125, "batch_norm": false, "standardize": true, "n_in": 6, "hidden_layers_sizes": [48, 48], "activation": "rectify"}
+2023-07-26 12:07:43,053 - Training step 0/500   |                         | - loss: 12.2944 - ci: 0.8104
+2023-07-26 12:07:51,859 - Training step 100/500 |*****                    | - loss: 5.7270 - ci: 0.8549
+2023-07-26 12:08:00,674 - Training step 200/500 |**********               | - loss: 5.6468 - ci: 0.8638
+2023-07-26 12:08:09,666 - Training step 300/500 |***************          | - loss: 5.5912 - ci: 0.8700
+2023-07-26 12:08:18,517 - Training step 400/500 |********************     | - loss: 5.5486 - ci: 0.8786
+2023-07-26 12:08:27,434 - Finished Training with 500 iterations in 44.47s
+Training metrics: {'c_index': 0.880186505829365}
+Test metrics: {'c_index': 0.8508881323940813, 'c_index_bootstrap': {'mean': 0.8545147739735492, 'confidence_interval': (0.851364039409209, 0.8576655085378895)}}

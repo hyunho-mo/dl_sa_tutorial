@@ -1,0 +1,2 @@
+2023-08-01 16:48:15,725 - __main__ - DEBUG - Parameters: Namespace(box='/trinity/home/hmo/hmo/dl_sa_tutorial/hyperparam_search/box_constraints.0.json', dataset='whas500.xls', num_epochs=500, num_evals=50, num_folds=5, update_fn='adam')
+2023-08-01 16:48:15,725 - __main__ - DEBUG - Loading dataset: whas500.xls

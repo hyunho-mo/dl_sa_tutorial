@@ -66,7 +66,9 @@ def load_dataset(dataset):
         to a format that Optunity can use to run hyper-parameter searches on.
         '''
         x = dataset['x']
+        print ("x", x)
         e = dataset['e']
+        print ("e", e)
         t = dataset['t']
         y = np.column_stack((e, t))
         # Take the indices of censored entries as strata

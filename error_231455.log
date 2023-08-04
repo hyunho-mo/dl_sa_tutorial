@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------
+No OpenFabrics connection schemes reported that they were able to be
+used on a specific port.  As such, the openib BTL (OpenFabrics
+support) will be disabled for this port.
+
+  Local host:           gpu002
+  Local device:         mlx5_0
+  Local port:           1
+  CPCs attempted:       rdmacm, udcm
+--------------------------------------------------------------------------
+2023-07-26 12:07:33.978535: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+[gpu002.cluster:41698] 1 more process has sent help message help-mpi-btl-openib-cpc-base.txt / no cpcs for port
+[gpu002.cluster:41698] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

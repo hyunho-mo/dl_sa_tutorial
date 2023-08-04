@@ -1,0 +1,4 @@
+2023-08-02 16:12:36,367 - __main__ - DEBUG - Parameters: Namespace(box='/trinity/home/hmo/hmo/dl_sa_tutorial/hyperparam_search/box_constraints_pytorch.json', dataset='whas500.xls', num_epochs=500, num_evals=50, num_folds=5, update_fn='Adam')
+2023-08-02 16:12:36,367 - __main__ - DEBUG - Loading dataset: whas500.xls
+2023-08-02 16:12:36,368 - __main__ - DEBUG - Box Constraints: {'learning_rate': [-6, -1], 'num_nodes': [2, 64], 'num_hidden_layers': [1, 3], 'lr_decay_rate': [0.0, 0.001], 'l2_reg': [0.05, 5.0], 'drop': [0.0, 0.5]}
+2023-08-02 16:12:36,369 - __main__ - DEBUG - Maximizing C-Index. Num_iterations: 50

@@ -10,9 +10,6 @@ from deepsurv import DeepSurv
 
 
 
-
-
-
 def generate_data(treatment_group = False):
     numpy.random.seed(123)
     sd = deepsurv.datasets.SimulatedData(5, num_features = 9,

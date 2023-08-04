@@ -1,0 +1,1 @@
+2023-08-01 16:24:50,795 - __main__ - DEBUG - Parameters: Namespace(box=None, dataset=None, num_epochs=100, num_evals=None, num_folds=5, plot_error=False, results_dir=None, treatment_idx=None, update_fn='sgd', weights=None)

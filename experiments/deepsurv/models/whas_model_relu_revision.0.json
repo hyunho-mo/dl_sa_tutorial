@@ -1,0 +1,1 @@
+{"learning_rate": 0.067594096518941305, "dropout": 0.14743652343750002, "lr_decay": 0.0006419482421875, "momentum": 0.863554443359375, "L2_reg": 16.094680908203125, "batch_norm": false, "standardize": true, "n_in": 13, "hidden_layers_sizes": [48, 48], "activation": "rectify"}
